@@ -1,5 +1,5 @@
 img {
-  width: 80%;
+  width: 70%;
   height: 100%;
 }
 
@@ -9,7 +9,7 @@ img {
   background-size: cover;
   background-position: center;
   height: 100vh;
-  margin-top: 50x;
+  margin-top: 30x;
   margin-bottom: -50px;
 }
 
