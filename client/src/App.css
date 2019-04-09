@@ -1,5 +1,5 @@
 img {
-  width: 100%;
+  width: 80%;
   height: 100%;
 }
 
@@ -9,12 +9,12 @@ img {
   background-size: cover;
   background-position: center;
   height: 100vh;
-  margin-top: -24px;
+  margin-top: 50x;
   margin-bottom: -50px;
 }
 
 .landing-inner {
-  padding-top: 80px;
+  padding-top: 20px;
 }
 
 .dark-overlay {
@@ -39,16 +39,82 @@ img {
   color: #bbb !important;
 }
 
-.panel-heading {
+div.col-md-12 {
   color: #333333;
-  font: 14px;
+  font: 14px "Helvetica";
+  padding: 0px 15px;
+  border: 1px;
+}
+
+div.panel-heading {
+  color: #333333;
+  font: 14px "Helvetica";
   background: #f5f5f5;
   padding: 10px 15px;
 }
 
-.panel-body {
+div.panel-body {
   color: #333333;
-  font: 14px;
+  font: 14px "Helvetica";
+  padding: 15px;
+  border: 1px solid;
+}
 
+div.col-md-12.text-center {
+  color: #333333;
+  font: 14px "Helvetica";
+  padding: 0px 15px;
+}
+
+div.col-md-12.text-left {
+  padding: 0px 15px;
+}
+
+div.col-md-3.text-left {
+  color: #333333;
+  font: 14px "Helvetica";
+  padding: 0px 15px;
+}
+
+label {
+  color: #333333;
+  font: 14px "Helvetica" "strong";
+  margin: 0px 0px 5px;
+}
+
+span {
+  color: #333333;
+  font: 14px "Helvetica";
+}
+
+div.col-md-12.table-responsive {
+  color: #333333;
+  font: 14px "Helvetica";
+  padding: 0px 15px;
+}
+h3 {
+  color: #333333;
+  font: 22px "Helvetica";
+  margin: 20px 0px 10px;
+}
+h3.text-center {
+  margin: 22px 0px 10px;
+}
+
+h3.text-center {
+  color: #333333;
+  font: 22px "Helvetica";
+  margin: 20px 0px 10px;
+}
+
+h4.text-center {
+  color: #333333;
+  font: 16px "Helvetica";
+  margin: 10px 0px;
+}
+
+div.panel-body {
+  color: #333333;
+  font: 14px "Helvetica";
   padding: 15px;
 }
