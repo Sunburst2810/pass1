@@ -28,7 +28,7 @@ class RegistrationHeader extends Component {
                 <h3 className="text-center">
                   {" "}
                   e-Transit Pass Form <br /> For Transportation &amp; Minor
-                  Mineral from Stock See Rure 70(1)
+                  Mineral from Stock See Rule 70(1)
                 </h3>
                 <h4 className="text-center"> Form MM11 </h4>
               </div>
