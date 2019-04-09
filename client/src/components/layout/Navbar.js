@@ -38,9 +38,7 @@ class Navbar extends Component {
     const guestLinks = (
       <ul className="navbar-nav ml-auto">
         <li className="nav-item">
-          <Link className="nav-link" to="/register">
-            ..
-          </Link>
+          <Link className="nav-link" to="/register" />
         </li>
         <li className="nav-item">
           <Link className="nav-link" to="/login">
@@ -53,24 +51,13 @@ class Navbar extends Component {
     return (
       <nav className="navbar navbar-expand-sm navbar-light  mb-2">
         <div className="container">
-          <Link className="navbar-brand" to="/">
-            .
-          </Link>
-          <button
-            className="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#mobile-nav"
-          >
-            <span className="navbar-toggler-icon" />
-          </button>
+          <Link className="navbar-brand" to="/" />
 
           <div className="collapse navbar-collapse" id="mobile-nav">
             <ul className="navbar-nav mr-auto">
               <li className="nav-item">
                 <Link className="nav-link" to="/registrations">
                   {" "}
-                  ..
                 </Link>
               </li>
             </ul>
