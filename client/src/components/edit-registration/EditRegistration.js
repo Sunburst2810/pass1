@@ -194,204 +194,204 @@ class CreateRegistration extends Component {
         <div className="container">
           <div className="row">
             <div className="col-md-8 m-auto">
-              <h1 className="display-4 text-center">Create Your Profile</h1>
+              <h1 className="display-4 text-center">Edit Mining</h1>
               <p className="lead text-center">
                 Directorate Of Geology & Mining Uttar Pradesh Minor Mineral
-                Concession Rules 1963 e-Transit Pass For Transportation & Minor
-                Mineral See Rule 70(1) Form MM11
+                Concession Rules 1963 e-Transit Pass For Transportation &
+                Minor Mineral See Rule 70(1) Form MM11
               </p>
               <small className="d-block pb-3">* = required fields</small>
               <form onSubmit={this.onSubmit}>
                 <TextFieldGroup
-                  placeholder="eMM11"
+                  placeholder=" * eMM11"
                   name="eMM11"
                   value={this.state.eMM11}
                   onChange={this.onChange}
                   error={errors.eMM11}
-                  info="A unique eMM11 for your profile URL. Your full name, company name, nickname"
+                  info="A unique eMM11 for your Mining."
                 />
                 <TextFieldGroup
-                  placeholder="nameofleasee"
+                  placeholder="Name of Lessee"
                   name="nameofleasee"
                   value={this.state.nameofleasee}
                   onChange={this.onChange}
                   error={errors.nameofleasee}
-                  info="Could be your own nameofleasee or one you work for"
+                  info="Name of Lesee"
                 />
                 <TextFieldGroup
-                  placeholder="mobilenoleasee"
+                  placeholder="Mobile No. of Lessee"
                   name="mobilenoleasee"
                   value={this.state.mobilenoleasee}
                   onChange={this.onChange}
                   error={errors.mobilenoleasee}
-                  info="Could be your own mobilenoleasee or a company one"
+                  info="Mobile No. of Lessee"
                 />
                 <TextFieldGroup
-                  placeholder="tinno"
+                  placeholder="Tin No."
                   name="tinno"
                   value={this.state.tinno}
                   onChange={this.onChange}
                   error={errors.tinno}
-                  info="City or city & state suggested (eg. Boston, MA)"
+                  info="Tin No."
                 />
                 <TextFieldGroup
-                  placeholder="leaseeid"
+                  placeholder="Lesee ID"
                   name="leaseeid"
                   value={this.state.leaseeid}
                   onChange={this.onChange}
                   error={errors.leaseeid}
-                  info="Please use comma separated values"
+                  info="Lesee ID"
                 />
                 <TextFieldGroup
-                  placeholder="leaseedetails"
+                  placeholder="Lessee Details"
                   name="leaseedetails"
                   value={this.state.leaseedetails}
                   onChange={this.onChange}
                   error={errors.leaseedetails}
-                  info="If you want your latest repos and a Github link, include your username"
+                  info="Lessee Details"
                 />
                 <TextFieldGroup
-                  placeholder="tehsilofleasee"
+                  placeholder="Tehsil Of Lessee"
                   name="tehsilofleasee"
                   value={this.state.tehsilofleasee}
                   onChange={this.onChange}
                   error={errors.tehsilofleasee}
-                  info="Tell us a little about yourself"
+                  info="Tehsil Of Lessee"
                 />
 
                 <TextFieldGroup
-                  placeholder="districtofleasee"
+                  placeholder="District of Lessee"
                   name="districtofleasee"
                   value={this.state.districtofleasee}
                   onChange={this.onChange}
                   error={errors.districtofleasee}
-                  info="Tell us a little about yourself"
+                  info="District of Lessee"
                 />
 
                 <TextFieldGroup
-                  placeholder="quantitytransportqmeter"
+                  placeholder="Quantity Transport Q. Meter"
                   name="quantitytransportqmeter"
                   value={this.state.quantitytransportqmeter}
                   onChange={this.onChange}
                   error={errors.quantitytransportqmeter}
-                  info="Tell us a little about yourself"
+                  info="Quantity Transport Q. Meter"
                 />
 
                 <TextFieldGroup
-                  placeholder="nameofmineral"
+                  placeholder="Name of Mineral"
                   name="nameofmineral"
                   value={this.state.nameofmineral}
                   onChange={this.onChange}
                   error={errors.nameofmineral}
-                  info="Tell us a little about yourself"
+                  info="Name of Mineral"
                 />
 
                 <TextFieldGroup
-                  placeholder="loadingfrom"
+                  placeholder="Loading From"
                   name="loadingfrom"
                   value={this.state.loadingfrom}
                   onChange={this.onChange}
                   error={errors.loadingfrom}
-                  info="Tell us a little about yourself"
+                  info="Loading From"
                 />
 
                 <TextFieldGroup
-                  placeholder="destination"
+                  placeholder="Destination"
                   name="destination"
                   value={this.state.destination}
                   onChange={this.onChange}
                   error={errors.destination}
-                  info="Tell us a little about yourself"
+                  info="Destination"
                 />
 
                 <TextFieldGroup
-                  placeholder="distance"
+                  placeholder="Distance KM"
                   name="distance"
                   value={this.state.distance}
                   onChange={this.onChange}
                   error={errors.distance}
-                  info="Tell us a little about yourself"
+                  info="Distance KM"
                 />
 
                 <TextFieldGroup
-                  placeholder="etpgeneratedon"
+                  placeholder="Etp Generatedon"
                   name="etpgeneratedon"
                   value={this.state.etpgeneratedon}
                   onChange={this.onChange}
                   error={errors.etpgeneratedon}
-                  info="Tell us a little about yourself"
+                  info="Etp Generatedon"
                 />
 
                 <TextFieldGroup
-                  placeholder="emm11validupto"
+                  placeholder="eMM11 Valid Upto"
                   name="emm11validupto"
                   value={this.state.emm11validupto}
                   onChange={this.onChange}
                   error={errors.emm11validupto}
-                  info="Tell us a little about yourself"
+                  info="eMM11 Valid Upto"
                 />
 
                 <TextFieldGroup
-                  placeholder="travelingduration"
+                  placeholder="Traveling Duration (Hr)"
                   name="travelingduration"
                   value={this.state.travelingduration}
                   onChange={this.onChange}
                   error={errors.travelingduration}
-                  info="Tell us a little about yourself"
+                  info="Traveling Duration (Hr)"
                 />
 
                 <TextFieldGroup
-                  placeholder="destinationdistrict"
+                  placeholder="Destination District"
                   name="destinationdistrict"
                   value={this.state.destinationdistrict}
                   onChange={this.onChange}
                   error={errors.destinationdistrict}
-                  info="Tell us a little about yourself"
+                  info="Destination District"
                 />
 
                 <TextFieldGroup
-                  placeholder="registrationno"
+                  placeholder="Registration No"
                   name="registrationno"
                   value={this.state.registrationno}
                   onChange={this.onChange}
                   error={errors.registrationno}
-                  info="Tell us a little about yourself"
+                  info="Registration No"
                 />
 
                 <TextFieldGroup
-                  placeholder="typeofvehicle"
+                  placeholder="Type of Vehicle"
                   name="typeofvehicle"
                   value={this.state.typeofvehicle}
                   onChange={this.onChange}
                   error={errors.typeofvehicle}
-                  info="Tell us a little about yourself"
+                  info="Type of Vehicle"
                 />
 
                 <TextFieldGroup
-                  placeholder="nameofdriver"
+                  placeholder="Name Of Driver"
                   name="nameofdriver"
                   value={this.state.nameofdriver}
                   onChange={this.onChange}
                   error={errors.nameofdriver}
-                  info="Tell us a little about yourself"
+                  info="Name Of Driver"
                 />
 
                 <TextFieldGroup
-                  placeholder="mobilenodriver"
+                  placeholder="Mobile No Driver"
                   name="mobilenodriver"
                   value={this.state.mobilenodriver}
                   onChange={this.onChange}
                   error={errors.mobilenodriver}
-                  info="Tell us a little about yourself"
+                  info="Mobile No Driver"
                 />
 
                 <TextFieldGroup
-                  placeholder="dlnodriver"
+                  placeholder="DL No Driver"
                   name="dlnodriver"
                   value={this.state.dlnodriver}
                   onChange={this.onChange}
                   error={errors.dlnodriver}
-                  info="Tell us a little about yourself"
+                  info="DL No Driver"
                 />
 
                 <input
