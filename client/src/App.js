@@ -47,13 +47,13 @@ class App extends Component {
         <Router>
           <div className="App">
             <Route exact path="/registration/:eMM11" component={Registration} />
-            <Navbar />
             <Route exact path="/" component={Landing} />
+
             <div className="container">
               <Route exact path="/register" component={Register} />
               <Route exact path="/login" component={Login} />
               <Route exact path="/registrations" component={Registrations} />
-
+              <Navbar />
               <Switch>
                 <PrivateRoute exact path="/dashboard" component={Dashboard} />
               </Switch>
