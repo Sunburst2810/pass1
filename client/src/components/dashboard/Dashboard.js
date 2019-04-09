@@ -40,12 +40,6 @@ class Dashboard extends Component {
             <RegistrationActions />
 
             <div style={{ marginBottom: "60px" }} />
-            <button
-              onClick={this.onDeleteClick.bind(this)}
-              className="btn btn-danger"
-            >
-              Delete My Account
-            </button>
           </div>
         );
       } else {
